@@ -1,0 +1,43 @@
+#chat-wrap {
+
+}
+
+.chat-header {
+    height: 10vh;
+    overflow: hidden;
+    margin: 0 2vw;
+    max-width: 100vw;
+    margin: auto;
+}
+
+.chat-server {
+    display: flex;
+    align-items: center;
+}
+
+#chat-area { 
+    height: 80vh; 
+    overflow: auto; 
+    padding: 20px; 
+    background-color: #fff;
+    background-size: cover;
+}
+
+#chat-area span { 
+    color: white; 
+    background: #007bff; 
+    padding: 4px 8px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 8px; 
+    margin: 0 5px 0 0; 
+}
+
+#chat-area p { 
+    padding: 8px;
+}
+
+#sendie { 
+    vertical-align: middle;
+    width: 95vw;
+    padding: 0 10px;
+}

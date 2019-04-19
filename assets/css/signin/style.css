@@ -1,0 +1,51 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.background-img {
+    background-image: url("../../img/1689.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.title-header {
+    margin: 25%;
+}
+
+#mobileHead {
+    display: none;
+}
+
+.footer {
+    background-color: #0077ff;
+}
+
+.get-started-btn:hover {
+    color: blue;
+}
+
+.whitebox-shadow {
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+}
+
+.border-radius-control {
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #webHead {
+        display: none;
+    }
+
+    #mobileHead {
+        display: block;
+    }
+}

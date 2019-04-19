@@ -1,0 +1,41 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.background-img {
+    background-image: url("../img/1689.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.title-header {
+    margin: 25%;
+}
+
+#mobileHead {
+    display: none;
+}
+
+.footer {
+    background-color: #0077ff;
+}
+
+.get-started-btn:hover {
+    color: blue;
+}
+
+@media only screen and (max-width: 1000px) {
+    #webHead {
+        display: none;
+    }
+
+    #mobileHead {
+        display: block;
+    }
+}
